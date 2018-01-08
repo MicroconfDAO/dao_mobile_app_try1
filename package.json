@@ -1,0 +1,30 @@
+{
+  "name": "WileyDAO",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "kakka-core": "^0.15.0",
+    "node-libs-browser": "^2.1.0",
+    "react": "16.0.0",
+    "react-native": "0.51.0",
+    "react-native-action-button": "^2.8.3",
+    "react-native-material-bottom-navigation": "^0.7.0",
+    "react-native-vector-icons": "^4.4.3",
+    "react-navigation": "^1.0.0-beta.22",
+    "web3": "^1.0.0-beta.27"
+  },
+  "devDependencies": {
+    "babel-jest": "22.0.4",
+    "babel-preset-react-native": "4.0.0",
+    "jest": "22.0.4",
+    "react-test-renderer": "16.0.0"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
